@@ -1,5 +1,5 @@
 from flask import Flask
-from .blueprints import crud_bp, professor_bp, aluno_bp, turma_bp
+from projeto_flask.blueprints import crud_bp, professor_bp, aluno_bp, turma_bp
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
